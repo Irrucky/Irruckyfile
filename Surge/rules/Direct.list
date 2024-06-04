@@ -1,6 +1,4 @@
 
-# 2024-05-20 10:45
-
 # > NTP
 AND,((DEST-PORT,123),(PROTOCOL,UDP))
 
