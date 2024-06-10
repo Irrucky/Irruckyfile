@@ -1,0 +1,3 @@
+   *.sgmodule linguist-language=Javascript
+   *.list linguist-language=Javascript
+   *.conf linguist-language=Javascript
