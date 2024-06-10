@@ -15,13 +15,13 @@
 * 您必须在下载后的24小时内从计算机或手机中完全删除以上内容.
 
 * 任何以任何方式查看此项目的人或直接或间接使用该项目的使用者都应仔细阅读此声明。保留随时更改或补充此免责声明的权利。一旦使用并复制了该项目的任何文件，则视为您已接受此免责声明.
-* [QuantumultX自用配置](https://raw.githubusercontent.com/Irrucky/Irruckyfile/main/QuantumultX/qx.conf)
-* [surge自用配置](https://raw.githubusercontent.com/Irrucky/Irruckyfile/main/Surge/Surge.conf)
+* [QuantumultX自用配置](https://raw.githubusercontent.com/Irrucky/Tool/main/QuantumultX/qx.conf)
+* [Surge自用配置](https://raw.githubusercontent.com/Irrucky/Tool/main/Surge/Surge.conf)
 * [流媒体脚本](https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/UI-Action.json)
 * [QuantumultX图标库](https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/icons-all.json)
 # 特别鸣谢排名不分先后
-* [Repcz](https://github.com/Repcz)
-* [fmz200](https://github.com/fmz200)
-* [Centralmatrix3](https://github.com/centralmatrix3)
-* [MuTu](https://github.com/githubdulong)
-* [blackmatrix7](https://github.com/blackmatrix7)
+* [@Repcz](https://github.com/Repcz)
+* [@fmz200](https://github.com/fmz200)
+* [@Centralmatrix3](https://github.com/centralmatrix3)
+* [@MuTu](https://github.com/githubdulong)
+* [@blackmatrix7](https://github.com/blackmatrix7)
