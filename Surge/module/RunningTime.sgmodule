@@ -1,6 +1,8 @@
 #!name=RunningTime
 #!desc=显示卡片开关，用于隐藏卡片时查看开启状态
 #!system=ios
+#!arguments=updateInterval:-1
+#!arguments-desc=\n\n-updateInterval:\n脚本面板自动更新间隔
 
 [Panel]
 RunningTime = script-name=RunningTime, title="Surge", content="请刷新", update-interval=-1
