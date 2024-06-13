@@ -8,4 +8,4 @@
 RunningTime = script-name=RunningTime, title="Surge", content="请刷新", update-interval={{{updateInterval}}}
 
 [Script]
-RunningTime = type=generic, script-path=https://raw.githubusercontent.com/smartmimi/conf/master/surge/functionstatus.js
+RunningTime = type=generic, script-path=https://raw.githubusercontent.com/Irrucky/Tool/main/Surge/Script/function.js
