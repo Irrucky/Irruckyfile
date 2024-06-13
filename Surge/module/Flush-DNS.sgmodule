@@ -1,0 +1,11 @@
+#!name=Flush DNS
+#!desc=快速清除Surge的DNS缓存
+#!system=ios
+#!arguments=timeout:10,updateInterval:600
+#!arguments-desc=\n-timeout:\n脚本超时时间，默认10s\nupdateInterval：\n面板更新时间
+
+[Panel]
+FlushDNS = script-name=FlushDNS,update-interval={{{updateInterval}}}
+
+[Script]
+FlushDNS = type=generic,timeout={{{timeout}}},script-path=https://raw.githubusercontent.com/Irrucky/Tool/main/Surge/Script/flushdns.js,argument=title=DNS FLush&icon=cube&color=#afe59a&server=false
