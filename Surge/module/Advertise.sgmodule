@@ -45,6 +45,9 @@
 ^https?:\/\/api-marketing\.zhinengxiyifang\.cn\/api\/v2\/cloudcode\/wechat\/bid - reject
 ^https?:\/\/adsoss\.zhinengxiyifang\.cn\/ads - reject
 
+[Header Rewrite]
+^https?:\/\/(www\.xvideos)(\.)(\w{0,3})(?!(.*(api|cdn-cgi|\.))).* header-replace Content-Security-Policy *
+
 [Map Local]
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/cps_product_info\?action data-type=text data="{}" status-code=200
 
@@ -80,6 +83,8 @@ UnblockURLinWeChat = type=http-response, pattern=^https\:\/\/(weixin110\.qq|secu
 
 Pornhub(cn.pornhub.com) = type=http-response , pattern="^https?:\/\/(\w{0,3}(\.){0,1}(pornhub)(\.)\w{0,3})\/(?!(.*(cdn-cgi|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mp3|json|ico))))).*" , requires-body=1 , max-size=0 , script-path=https://limbopro.com/Adguard/Adblock4limbo.js , script-update-interval=0
 
+Xvideos(www.xvideos.com) = type=http-response , pattern="^https?:\/\/www\.xvideos\.com\/(?!(.*(api|my|cdn-cgi|account|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mp3|json|ico))))).*" , requires-body=1 , max-size=0 , script-path=https://limbopro.com/Adguard/Adblock4limbo.js , script-update-interval=0
+
 # 禁漫天堂 (https://18comic.org/) //18comic.org, 18comic.vip
 禁漫天堂(18comic.org|vip) = type=http-response , pattern="^https?:\/\/18comic\.(vip|org)\/(?!(.*(onclick|cdn-cgi|\.))).*" , requires-body=1 , max-size=0 , script-path=https://limbopro.com/Adguard/Adblock4limbo.js , script-update-interval=0
 
@@ -88,4 +93,4 @@ zhuanzhuan = type=http-response, pattern=^https?:\/\/app\.zhuanzhuan\.com\/zz\/t
 replaceBody = type=http-response, pattern=^https?:\/\/app\.zhuanzhuan\.com\/zz\/v2\/zzinfoshow\/getchoicegoodsinfos, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-body.js, requires-body=true, max-size=-1, timeout=30, argument=infoData-%3Erandom_body
 
 [MITM]
-hostname = %APPEND% app.zhuanzhuan.com, api-marketing.zhinengxiyifang.cn, adsoss.zhinengxiyifang.cn, ads.zhinengxiyifang.can, midc.cdn-static.abchina.com.cn, enjoy.cdn-static.abchina.com, app.dewu.com, cdn.poizon.com, pic1.chelaile.net.cn, api.chelaile.net.cn, atrace.chelaile.net.cn, web.chelaile.net.cn, cdn.*.chelaileapp.cn, app-gw.csdn.net, gw.csdn.net, pan.baidu.com, ndstatic.cdn.bcebos.com, staticsns.cdn.bcebos.com, issuecdn.baidupcs.com, update.pan.baidu.com, fc-video.cdn.bcebos.com, rp.hpplay.cn, us.l.qq.com, ossweb-img.qq.com, mlol.qt.qq.com, list-app-m.i4.cn, 18comic.org, 18comic.vip, cn.pornhub.com, mp.weixin.qq.com, weixin110.qq.com, security.wechat.com
+hostname = %APPEND% app.zhuanzhuan.com, api-marketing.zhinengxiyifang.cn, adsoss.zhinengxiyifang.cn, ads.zhinengxiyifang.can, midc.cdn-static.abchina.com.cn, enjoy.cdn-static.abchina.com, app.dewu.com, cdn.poizon.com, pic1.chelaile.net.cn, api.chelaile.net.cn, atrace.chelaile.net.cn, web.chelaile.net.cn, cdn.*.chelaileapp.cn, app-gw.csdn.net, gw.csdn.net, pan.baidu.com, ndstatic.cdn.bcebos.com, staticsns.cdn.bcebos.com, issuecdn.baidupcs.com, update.pan.baidu.com, fc-video.cdn.bcebos.com, rp.hpplay.cn, us.l.qq.com, ossweb-img.qq.com, mlol.qt.qq.com, list-app-m.i4.cn, 18comic.org, 18comic.vip, cn.pornhub.com, mp.weixin.qq.com, weixin110.qq.com, security.wechat.com, www.xvideos.com
