@@ -2,7 +2,7 @@
 #!desc=快速清除Surge的DNS缓存
 #!system=ios
 #!arguments=timeout:10,updateInterval:600,icon:cube
-#!arguments-desc=\n-timeout:\n脚本超时时间，默认10s\nupdateInterval：\n面板更新时间\n面板图标
+#!arguments-desc=\n-timeout:\n\n脚本超时时间，默认10s\n\n-updateInterval：\n\n面板更新时间\n\n-icon:\n\n面板图标
 
 [Panel]
 FlushDNS = script-name=FlushDNS,update-interval={{{updateInterval}}}
