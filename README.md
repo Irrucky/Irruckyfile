@@ -20,8 +20,8 @@
 * [流媒体脚本](https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/UI-Action.json)
 * [QuantumultX图标库](https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/icons-all.json)
 # 特别鸣谢排名不分先后
-* [@Repcz](https://github.com/Repcz)
-* [@fmz200](https://github.com/fmz200)
-* [@Centralmatrix3](https://github.com/centralmatrix3)
-* [@MuTu](https://github.com/githubdulong)
-* [@blackmatrix7](https://github.com/blackmatrix7)
+* [Repcz](https://github.com/Repcz)
+* [fmz200](https://github.com/fmz200)
+* [Centralmatrix3](https://github.com/centralmatrix3)
+* [MuTu](https://github.com/githubdulong)
+* [blackmatrix7](https://github.com/blackmatrix7)
