@@ -1,3 +1,9 @@
+## Welcome, You are my visitor     ![](http://profile-counter.glitch.me/Irrucky/count.svg)  
+
+## Thank You!🎉🎉
+
+## Hi
+
 # 免责申明
 
 * 禁止转发国内平台
@@ -15,14 +21,6 @@
 * 您必须在下载后的24小时内从计算机或手机中完全删除以上内容.
 
 * 任何以任何方式查看此项目的人或直接或间接使用该项目的使用者都应仔细阅读此声明。保留随时更改或补充此免责声明的权利。一旦使用并复制了该项目的任何文件，则视为您已接受此免责声明.
-
- - - -
-
-* Welcome, You are my visitor     ![](http://profile-counter.glitch.me/Irrucky/count.svg)  
-
-* Thank You!🎉🎉
-
-- - -
 
 * [QuantumultX自用配置](https://raw.githubusercontent.com/Irrucky/Tool/main/QuantumultX/qx.conf)
 * [Surge自用配置](https://raw.githubusercontent.com/Irrucky/Tool/main/Surge/Surge.conf)
