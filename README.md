@@ -1,7 +1,3 @@
-# Hi ，Welcome！ You are my visitor   ![](http://profile-counter.glitch.me/Irrucky/count.svg)  
-
-# Thank You!🎉🎉
-
 # 免责申明
 
 * 禁止转发国内平台
