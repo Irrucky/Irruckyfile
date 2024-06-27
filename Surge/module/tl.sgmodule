@@ -1,4 +1,5 @@
-#
+#!name=去广告-12306
+#!desc=12306去广告
 [Rule]
 # 放行规则
 DOMAIN,ad.12306.cn,DIRECT
